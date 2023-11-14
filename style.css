@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+   border: 2px;
+   width: 100%;
+   height: 60px;
+   background-color: rgb(196, 180, 134);
+}
+
+.navbar1{
+    position: relative;
+    display: inline-flex;
+    left: 47%;
+}
+
+.linkinnav a{
+    border: 1px solid black;
+    border-color: black; 
+    background-color: white;
+    width: 80px;
+}
+
+.body{
+    background-color: bisque;
+    text-align: center;
+    position: relative;
+    left: 4%;
+    width: 1200px;
+}
+
+.img{
+    display: inline-flex;
+    position: relative;
+    left: 10%;
+}
+
+footer{
+    background-color: rgb(196, 180, 134);
+    width: 100%;
+}
+
+.icon{
+    background: url(images/sprite3.png) no-repeat;
+    display: inline-flex;
+    width: 66px;
+    height: 66px;
+}
+
+#twi{
+	background-position: -66px -72px;
+}
+
+#chc{
+    background-position: -216px -221px;
+}
+
+#star{
+    background-position: -587px -146px;
+}
+
+#note{
+    background-position: -67px -221px;
+}
+
+@media screen and (max-width: 640px){
+    .dropbtn{
+        background-color: aqua;
+        color: white;
+        padding: 1vw;
+        font-size: 16px;
+        border: none;
+    }
+
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #ddd;}
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color: green;}
+}
